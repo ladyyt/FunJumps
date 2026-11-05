@@ -21,10 +21,10 @@ Toggling the FunJumps mode for HNS servers, with a voting system
 * [CollisionHook](https://hlmod.net/resources/collisionhook.4141/) (resides in the repository)
 
 ### Installing
-1. Contents of the core folder => /sourcemod
-2. Compile the necessary modules => /plugins
+1. Contents of the core folder => ``/sourcemod``
+2. Compile the necessary modules => ``/plugins``
 3. Restart the server
-4. Configure the file cfg/sourcemod/funjumps.cfg
+4. Configure the file ``cfg/sourcemod/funjumps.cfg``
 
 ### Needed for compilation
 * [CollisionHook](https://hlmod.net/resources/collisionhook.4141/)
