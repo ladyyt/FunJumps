@@ -1,0 +1,76 @@
+"Games"
+{
+	"csgo"
+	{
+		"Offsets"
+		{
+			"CBaseEntity::GetBaseEntity"
+			{
+				"windows"	"5"
+				"linux"		"6"
+			}
+		}
+		"Functions"
+		{
+			"CTraceFilterSimple::ShouldHitEntity"
+			{
+				"signature"	"CTraceFilterSimple::ShouldHitEntity"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"address"
+				"arguments"
+				{
+					"pHandleEntity"
+					{
+						"type"	"int"
+					}
+					"contentsMask"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CCollisionEvent::ShouldCollide"
+			{
+				"signature"	"CCollisionEvent::ShouldCollide"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"ignore"
+				"arguments"
+				{
+					"*pObj0"
+					{
+						"type"	"int"
+					}
+					"*pObj1"
+					{
+						"type"	"int"
+					}
+					"*pGameData0"
+					{
+						"type"	"cbaseentity"
+					}
+					"*pGameData1"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+		}
+		"Signatures"
+		{
+			"CTraceFilterSimple::ShouldHitEntity"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x8B\x55\x0C\x56\x8B\x75\x08\x57"
+				"linux"			"\x55\x89\xE5\x57\x56\x53\x83\xEC\x24\x8B\x5D\x0C\x8B\x75\x10\x56"
+			}
+			"CCollisionEvent::ShouldCollide"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x83\xEC\x1C\x8B\xC1\x53\x8B\x5D\x10"
+				"linux"			"\x55\x89\xE5\x57\x56\x53\x83\xEC\x2C\x8B\x7D\x08\x8B\x5D\x14\x8B\x87\x5C\x01\x00\x00"
+			}
+		}
+	}
+}

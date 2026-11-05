@@ -1,0 +1,49 @@
+"Phrases"
+{
+    "FJ_Enabled"
+    {
+        "#format"   "{1:s}"
+        "ru"        "{1}{GREEN}funjumps {DEFAULT}включен!"
+        "en"        "{1}{GREEN}funjumps {DEFAULT} enabled!"
+    }
+
+    "FJ_Disabled"
+    {
+        "#format"   "{1:s}"
+        "ru"        "{1}{GREEN}funjumps {DEFAULT} отключен!"
+        "en"        "{1}{GREEN}funjumps {DEFAULT} disabled!"
+    }
+
+    "Menu_EnableFJ"
+    {
+        "ru"        "Включить FunJumps"
+        "en"        "Enable FunJumps"
+    }
+
+    "Menu_DisableFJ"
+    {
+        "ru"        "Отключить FunJumps"
+        "en"        "Disable FunJumps"
+    }
+
+    "FJ_PointSaved"
+    {
+        "#format"   "{1:s}"
+        "ru"        "{1}Point saved"
+        "en"        "{1}Point saved"
+    }
+
+    "FJ_EmptyPoint"
+    {
+        "#format"   "{1:s}"
+        "ru"        "{1}Point is empty"
+        "en"        "{1}Point is empty"
+    }
+	
+	"Vote_OnCooldown"
+    {
+        "#format"   "{1:s}"
+        "ru"        "{1}Голосование на кулдауне"
+        "en"        "{1}Voting on cooldown"
+    }
+}
