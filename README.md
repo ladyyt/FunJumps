@@ -6,6 +6,7 @@ Toggling the FunJumps mode for HNS servers, with a voting system
 * **Teleport to saved position**
 * **Toggling God mode** - To avoid taking damage
 * **Toggling Collision** - To prevent players from colliding with one another
+* **Voting** - to switch modes, without an admin
 
 ## Commands
 
